@@ -1,0 +1,30 @@
+H. M. Deitel
+C++ How to Program
+130895717
+Judy Bishop
+Java Gently
+201593998
+Jeff Salvage
+The C++ Coach
+201702894
+Thomas Wu
+Object-Oriented Programming with Java
+256254621
+Cay Horstmann
+Computing Concepts with C++
+471164372
+Gary Bronson
+Program Development and Design
+534371302
+Joyce Farrell
+Object-Oriented Programming
+619033614
+D. S. Malik
+C++ Programming
+619062134
+James Roberge
+Introduction to Programming in C++
+669347183
+Nell Dale
+C++ Plus Data Structures
+763714704

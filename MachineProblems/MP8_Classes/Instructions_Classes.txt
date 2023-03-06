@@ -1,0 +1,86 @@
+Machine Problem – Classes
+
+Part 1
+The purpose of this part of the assignment is to give you practice in creating a class. You will develop a program that creates a class for a book. The main program will simply test this class.
+The class will have the following data members:
+1.	A string for the name of the author
+2.	A string for the book title
+3.	A long integer for the ISBN
+The class will have the following member functions (details about each one are below:)
+1.	A default constructor
+2.	A Print function which prints out all the information about the book.
+3.	A GetData function which reads information from a file into the data members.
+4.	A function GetISBN that returns the integer containing the ISBN. (This will be needed in Part 2).
+You must create your program using the following three files:
+book.h – used for declaring your class. In this header file, the declarations of the class and its members (both data and functions) will be done without the definitions. The definitions should be done in the book.cpp file.
+book.cpp – contains the definitions of the member functions:
+1.	The default constructor will initialize the author's name to “No name”, the title to "Unknown title", and the ISBN to 0.
+2.	The Print function will display all of the information about a book in a clear format. This will be a const function because it does not change the data members. For formatting purposes, you may assume that no name will have more than 20 characters and that no book title will have more than 50 characters.
+3.	The GetData function will have the input file as a parameter, will read information from the file and put appropriate values into the data members. (See below for the format of the data file.)
+4.	The GetISBN function will simply return the long integer containing the ISBN. It also will be a const function.
+Mp8bookDriver.cpp – should contain the main program to test the class.
+It should declare two book objects (book1 and book2) using the default constructor. Call the print function for book1 (to show that the default constructor is correct). Open the input file and call the GetData function for book2 and then print its information. Finally, test the GetISBN function for book2 and output the result returned from the function.
+Format of Data file
+The name of the data file is mp7book.txt
+It has data for one book arranged as follows:
+•	The name is on one line by itself (hint: use getline).
+•	The title is on a line by itself.
+•	The ISBN is on the third line.
+mp7book.txt
+Jane Smith
+History Of This World
+12349876
+Get this part of the program working and save all the files before starting on Part 2. The output should be similar to the following:
+Testing the book class by (your name)
+The information for book 1 is:
+No name Unknown title 0
+The information for book 2 is:
+Jane Smith History Of The World 12349876
+book2 has ISBN 12349876
+Press any key to continue
+Part 2
+Now you will use the book class to create an array of books for a small library. Note that the book.h and book.cpp files should not have to be changed at all - you just have to change the main program in the Mp8bookDriver.cpp file.
+There is a new data file, mp7bookarray.txt. It contains the information for the books in the library using the same format as described above for each book. There will be exactly 10 books in the file.
+Declare an array of books that could hold 10 book objects. Open the new data file and use a loop to call the GetData function to read the information about the books into the objects in the array. Print out the list of books in the library in a nice format. Notice that the books are arranged in order by ISBN in the data file.
+Now imagine customers coming into the library who want to know whether a particular book is in the collection. Each customer knows the ISBN of the book. Open the third data file (mp8bookISBN.txt) which contains ISBN's, read each one, and use a binary search to find out whether the book is in the array. If it is found, print out all the information about the book, if not, print an appropriate message. Then repeat the process for each of the ISBN's until you get to the end of the file.
+mp8bookarray.txt
+H. M. Deitel
+C++ How to Program
+130895717
+Judy Bishop
+Java Gently
+201593998
+Jeff Salvage
+The C++ Coach
+201702894
+Thomas Wu
+Object-Oriented Programming with Java
+256254621
+Cay Horstmann
+Computing Concepts with C++
+471164372
+Gary Bronson
+Program Development and Design
+534371302
+Joyce Farrell
+Object-Oriented Programming
+619033614
+D. S. Malik
+C++ Programming
+619062134
+James Roberge
+Introduction to Programming in C++
+669347183
+Nell Dale
+C++ Plus Data Structures
+763714704
+mp8bokkISBN.txt
+201593998
+888899999
+763714704
+111122222
+256254621
+130895717
+488881111
+534371302
+619033614

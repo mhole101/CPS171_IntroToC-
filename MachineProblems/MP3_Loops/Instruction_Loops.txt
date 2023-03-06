@@ -1,0 +1,22 @@
+Machine Problem 3 – Loops
+
+Say a real estate office handles 50 apartment units. When the rent is $600 per month, all the units are occupied. However, for each $40 increase in rent, one unit becomes vacant. Moreover, each occupied unit requires an average of $27 per month for maintenance. How many units should be rented to maximize the profit?
+Write a program that prompts the user to enter:
+1.	The total number of units.
+2.	The rent to occupy all the units.
+3.	The increase in rent that results in a vacant unit.
+4.	Amount to maintain a rented unit.
+Here is a sample output:
+This program is written by your name.
+Please enter total number of units: 50
+Please enter the rent: 600
+Please enter the increase: 40
+Please enter the maintenance: 27
+Number of units to give me the maximum profit is : XX
+Your program should replace the XX with the answer.
+You can display the table to prove it like this:
+units        rent       profit
+50             600       28650
+49             640       30037
+48             680       xxxxxx
+...etc

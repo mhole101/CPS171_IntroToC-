@@ -1,0 +1,59 @@
+MP4 - Functions
+Roman Numeral Calculator
+Written by: Matt Hole
+
+
+The first number is MCCXXVI (1226).
+The second number is CV (105).
+The operator is +
+The result is 1331 (MCCCXXXI).
+************************************************
+
+The first number is MCCXXVI (1226).
+The second number is MCCXXVI (1226).
+The operator is /
+The result is 1 (I).
+************************************************
+
+The first number is V (5).
+The second number is I (1).
+The operator is -
+The result is 4 (IIII).
+************************************************
+
+The first number is MDCLXVI (1666).
+The second number is III (3).
+The operator is *
+The result is 4998 (MMMMDCCCCLXXXXVIII).
+************************************************
+
+The first number is DL (550).
+The second number is DXXXXVIII (548).
+The operator is -
+The result is 2 (II).
+************************************************
+
+The first number is D (500).
+The second number is L (50).
+The operator is /
+The result is 10 (X).
+************************************************
+
+The first number is MDI (1501).
+The second number is CXI (111).
+The operator is +
+The result is 1612 (MDCXII).
+************************************************
+
+The first number is XXV (25).
+The second number is IIII (4).
+The operator is /
+The result is 6 (VI).
+************************************************
+
+The first number is XI (11).
+The second number is CII (102).
+The operator is *
+The result is 1122 (MCXXII).
+************************************************
+
